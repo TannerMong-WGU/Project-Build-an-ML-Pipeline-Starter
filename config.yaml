@@ -11,7 +11,7 @@ etl:
   min_price: 10  # dollars
   max_price: 350  # dollars
   dirty_data: "sample.csv:latest"
-  reference_data: "clean_sample.csv:reference"
+  reference_data: "nyc_airbnb/clean_sample.csv:reference"
 data_check:
   kl_threshold: 0.2
 modeling:
