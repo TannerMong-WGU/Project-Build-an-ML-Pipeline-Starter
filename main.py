@@ -55,7 +55,7 @@ def go(config: DictConfig):
                 entry_point="main",
                 env_manager="conda",
                 parameters={
-                    "input_artifact": config["etl"]['dirty_data']
+                    "input_artifact": config["etl"]['dirty_data'],
                     "output_artifact": "clean_sample.csv",
                     "output_type": "cleaned_data",
                     "output_description": "Basic cleaned version of the Airbnb dataset",
