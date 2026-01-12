@@ -53,7 +53,6 @@ def go(config: DictConfig):
             _ = mlflow.run(
                 f"{config['main']['src_repository']}/basic_cleaning",
                 entry_point="main",
-                version="main",
                 env_manager="conda",
                 parameters={
                     "input_artifact": config["etl"]["sample"],
