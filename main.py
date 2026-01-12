@@ -70,7 +70,7 @@ def go(config: DictConfig):
                 entry_point="main",
                 env_manager="conda",
                 parameters={
-                    "csv": "clean_sample.csv",  # output from basic_cleaning
+                    "csv": config["etl"]["clean_data"],  # output from basic_cleaning
                     "ref": config["etl"]["reference_data"],  # reference dataset for KL test
                     "kl_threshold": config["data_check"]["kl_threshold"],
                     "min_price": config["etl"]["min_price"],
