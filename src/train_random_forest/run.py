@@ -118,8 +118,13 @@ def go(args):
 
     ######################################
     # Here we save variable r_squared under the "r2" key
-    run.summary['r2'] = r_squared
     # Now save the variable mae under the key "mae".
+    run.log({
+        "r2": r_squared,
+        "mae": mae
+    })
+    run.summary['r2'] = r_squared
+    
     run.summary['mae'] = mae
     ######################################
 
