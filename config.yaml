@@ -18,6 +18,8 @@ data_check:
 data_split:
   trainval_artifact: "trainval_data.csv:latest"
   test_artifact: "test_data.csv:latest"
+model_testing:
+  prod_model: "nyc_airbnb/random_forest_model:prod"
 modeling:
   # Fraction of data to use for test (the remaining will be used for train and validation)
   test_size: 0.2
