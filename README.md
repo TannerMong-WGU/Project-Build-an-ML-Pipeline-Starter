@@ -179,3 +179,11 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+
+
+
+Tanner Mong's WandB workspace for this project:
+https://wandb.ai/tmong1-western-governors-university/nyc_airbnb/workspace?nw=nwusertmong1
+Tanner Mong's Github for this project:
+https://github.com/TannerMong-WGU/Project-Build-an-ML-Pipeline-Starter
