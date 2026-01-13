@@ -123,9 +123,6 @@ def go(args):
         "r2": r_squared,
         "mae": mae
     })
-    run.summary['r2'] = r_squared
-    
-    run.summary['mae'] = mae
     ######################################
 
     # Upload to W&B the feture importance visualization
